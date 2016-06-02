@@ -1,0 +1,39 @@
+{
+  "name": "comicsapi",
+  "version": "1.0.0",
+  "description": "REST API for Grand Comics Database",
+  "main": "server.js",
+  "scripts": {
+    "test": "NODE_ENV=test istanbul cover node_modules/.bin/_mocha -- -R spec test"
+  },
+  "author": "Harry Baldwin",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "3.1.5",
+    "body-parser": "1.14.2",
+    "bookshelf": "0.9.1",
+    "bookshelf-pagemaker": "1.0.5",
+    "cors": "2.7.1",
+    "dotenv": "2.0.0",
+    "express": "4.13.4",
+    "knex": "0.9.0",
+    "lodash": "4.1.0",
+    "mongoose": "4.4.13",
+    "mysql": "2.10.2",
+    "oauth2orize": "1.2.2",
+    "passport": "0.3.2",
+    "passport-http": "0.3.0",
+    "passport-http-bearer": "1.0.1",
+    "passport-oauth2-client-password": "0.1.2"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "gulp": "3.9.1",
+    "gulp-nodemon": "2.0.6",
+    "istanbul": "0.4.3",
+    "mocha": "2.4.5",
+    "sinon": "1.17.4",
+    "sqlite3": "3.1.3",
+    "supertest": "1.2.0"
+  }
+}
